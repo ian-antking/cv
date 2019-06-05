@@ -20,6 +20,8 @@ Some of the technologies I have worked with, plese note this list is not exhaust
 
 ### Teaching :man_teacher:
 
+  I am passionate about teaching and am a coding mentor at Manchester Codes. I have also help other people to learn to code at events such as [Full Stack of Pancakes](https://www.fullstackofpancakes.com/).
+
 ## Projects
 
 ## Education
