@@ -1,9 +1,18 @@
 # Ian Anthony King
-[website](www.ian-antking.github.io) | [LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Twitter](https://twitter.com/antkingian)
+[Website](www.ian-antking.github.io) | [LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Twitter](https://twitter.com/antkingian)
 
 Software Developer with a background in Science Education. Graduate of and Coding Mentor @ [Manchester Codes](https://www.manchestercodes.com/).
 
 ## Skills
+
+Some of the technologies I have worked with, plese note this list is not exhaustive:
+`Arduino` `AWS` `Babel` `Bootstrap` `Expo` `Express` `Git` `JavaScript` `Jest` `Mocha` `MongoDB` `Node` `Python` `Raspberry Pi` `React` `React Native` `Webpack`
+
+### Fast Learner :running:
+
+### Problem Solving :thinking:
+
+### Teaching :man_teacher:
 
 ## Projects
 
