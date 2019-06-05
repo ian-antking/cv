@@ -5,12 +5,12 @@
 
 ## Skills
 
-  Some of the technologies I have worked with, plese note this list is not exhaustive:
+  Some of the technologies I have worked with, please note this list is not exhaustive:
   `Arduino` `AWS` `Babel` `Bootstrap` `Expo` `Express` `Git` `JavaScript` `Jest` `Mocha` `MongoDB` `Node` `Python` `Raspberry Pi` `React` `React Native` `Webpack`
 
 ### Fast Learner :running:
 
-  I learned to code with the Manchester Codes intensive 24 week course. This was studied part-time in addition to working full time as a teacher in a secondary school. While studying, I was introduced to several new technologies, such as React, Express, Reac Native and Expo. 
+  I learned to code with the Manchester Codes intensive 24 week course. This was studied part-time in addition to working full time as a teacher in a secondary school. While studying, I was introduced to several new technologies, such as React, Express, React Native and Expo. 
 
   Prior to Manchester Codes, I was able to self learn Python and JavaScript. This was at a level sufficient to teach basic coding in school.
 
@@ -24,7 +24,7 @@
 
 ## Projects
 
-  ### [The Pirage Gui](ian-antking.github.io/the-pirate-gui)
+  ### [The Pirate Gui](ian-antking.github.io/the-pirate-gui)
 
   [The Pirate Game](https://www.tes.com/teaching-resource/the-pirate-game-end-of-term-activity-6258063) 
   is a popular end of term activity for a lot of teachers and their classes. Originally published on [TES](tes.com), 
@@ -45,8 +45,8 @@
 
   ### [GeoGraffiti](https://github.com/JonnyEdge/geograffiti)
 
-  My final project (with [Johhy Edge](https://github.com/JonnyEdge)) for the Mancheter Codes course. 
-  Inteded as an Instagram-type application, users can upload pictures of graffiti which are then desplayed on a map at the location 
+  My final project (with [Johnny Edge](https://github.com/JonnyEdge)) for the Manchester Codes course. 
+  Intended as an Instagram-type application, users can upload pictures of graffiti which are then displayed on a map at the location 
   the picture was taken (using the location data embedded in the image). Users can also explore the map to find other pictures of 
   graffiti and street art. 
 
@@ -55,7 +55,7 @@
 
 ## Education
 
-  ### Mancester Codes (Aug 2018 - Feb 2019)
+  ### Manchester Codes (Aug 2018 - Feb 2019)
 
     - 24 Week Intensive Part-Time
     - Javascript Fundamentals
@@ -76,12 +76,12 @@
   ### University of Lincoln (2005 - 2008)
     
     - BSc Forensic Science
-    - Upper Second Class Honours
+    - Upper Second Class Honors
 
 ## Experience
 
-  ### Coding Mentor - Mancheser Codes (April 2019 - Present) 
-    I am currently workign part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
+  ### Coding Mentor - Manchester Codes (April 2019 - Present) 
+    I am currently working part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
 
   ## Interests
 
