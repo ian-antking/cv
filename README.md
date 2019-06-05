@@ -10,7 +10,13 @@ Some of the technologies I have worked with, plese note this list is not exhaust
 
 ### Fast Learner :running:
 
-### Problem Solving :thinking:
+  I learned to code with the Manchester Codes intensive 24 week course. This was studied part-time in addition to working full time as a teacher in a secondary school. While studying, I was introduced to several new technologies, such as React, Express, Reac Native and Expo. 
+
+  Prior to Manchester Codes, I was able to self learn Python and JavaScript. This was at a level sufficient to teach basic coding in school.
+
+### Problem Solving :mag_right:
+
+  My background in Forensic Science has given me a methodical approach to problem solving. This is coupled with my teaching of computational thinking skills at a secondary school level. From this, I am confident in my ability to break down problems and devise solutions.
 
 ### Teaching :man_teacher:
 
