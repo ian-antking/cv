@@ -81,7 +81,7 @@
 ## Experience
 
   ### Coding Mentor - Manchester Codes (April 2019 - Present) 
-    I am currently working part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
+  I am currently working part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
 
   ## Interests
 
