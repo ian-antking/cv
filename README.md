@@ -26,32 +26,32 @@
 
   ### [The Pirage Gui](ian-antking.github.io/the-pirate-gui)
 
-    [The Pirate Game](https://www.tes.com/teaching-resource/the-pirate-game-end-of-term-activity-6258063) 
-    is a popular end of term activity for a lot of teachers and their classes. Originally published on [TES](tes.com), 
-    it is a game of luck and strategy. On top of this are some practical Maths skills such and handing grid references and keeping 
-    track of your pirate gold.
+  [The Pirate Game](https://www.tes.com/teaching-resource/the-pirate-game-end-of-term-activity-6258063) 
+  is a popular end of term activity for a lot of teachers and their classes. Originally published on [TES](tes.com), 
+  it is a game of luck and strategy. On top of this are some practical Maths skills such and handing grid references and keeping 
+  track of your pirate gold.
 
-    The Pirate Gui is a graphical tool for choosing and displaying random grid references as well as recording the turn order, 
-    just in case any disagreements happen. The page is built in vanilla javascript, with an object oriented approach to handling 
-    the map and grid references.
+  The Pirate Gui is a graphical tool for choosing and displaying random grid references as well as recording the turn order, 
+  just in case any disagreements happen. The page is built in vanilla javascript, with an object oriented approach to handling 
+  the map and grid references.
 
-    This App was built in pure JavaScript, with an object oriented approach to managing the game board.
+  This App was built in pure JavaScript, with an object oriented approach to managing the game board.
 
   ### [CMail](ian-antking.github.io/cmail-js)
 
-    A simulated email client for teaching Functional Skills English. Built in react as a single page application. Learners can reply to one of the messages in the inbox, or start from scratch with a new email. Clicking the send button formats the text for printing or saving as a pdf. Clicking back from an email in progress stores it for later.
+  A simulated email client for teaching Functional Skills English. Built in react as a single page application. Learners can reply to one of the messages in the inbox, or start from scratch with a new email. Clicking the send button formats the text for printing or saving as a pdf. Clicking back from an email in progress stores it for later.
 
-    This application was built in React, with Material UI components.
+  This application was built in React, with Material UI components.
 
   ### [GeoGraffiti](https://github.com/JonnyEdge/geograffiti)
 
-    My final project (with [Johhy Edge](https://github.com/JonnyEdge)) for the Mancheter Codes course. 
-    Inteded as an Instagram-type application, users can upload pictures of graffiti which are then desplayed on a map at the location 
-    the picture was taken (using the location data embedded in the image). Users can also explore the map to find other pictures of 
-    graffiti and street art. 
+  My final project (with [Johhy Edge](https://github.com/JonnyEdge)) for the Mancheter Codes course. 
+  Inteded as an Instagram-type application, users can upload pictures of graffiti which are then desplayed on a map at the location 
+  the picture was taken (using the location data embedded in the image). Users can also explore the map to find other pictures of 
+  graffiti and street art. 
 
-    This app was built in Expo, with React Native. The [companion api](https://github.com/ian-antking/geo-graffiti-api)
-     was build in express and deployed to Heroku. Images were stored on AWS S3.
+  This app was built in Expo, with React Native. The [companion api](https://github.com/ian-antking/geo-graffiti-api)
+    was build in express and deployed to Heroku. Images were stored on AWS S3.
 
 ## Education
 
