@@ -1,12 +1,12 @@
 # Ian Anthony King
-[Website](www.ian-antking.github.io) | [LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Twitter](https://twitter.com/antkingian)
+  [Website](www.ian-antking.github.io) | [LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Twitter](https://twitter.com/antkingian)
 
-Software Developer with a background in Science Education. Graduate of and Coding Mentor @ [Manchester Codes](https://www.manchestercodes.com/).
+  Software Developer with a background in Science Education. Graduate of and Coding Mentor @ [Manchester Codes](https://www.manchestercodes.com/).
 
 ## Skills
 
-Some of the technologies I have worked with, plese note this list is not exhaustive:
-`Arduino` `AWS` `Babel` `Bootstrap` `Expo` `Express` `Git` `JavaScript` `Jest` `Mocha` `MongoDB` `Node` `Python` `Raspberry Pi` `React` `React Native` `Webpack`
+  Some of the technologies I have worked with, plese note this list is not exhaustive:
+  `Arduino` `AWS` `Babel` `Bootstrap` `Expo` `Express` `Git` `JavaScript` `Jest` `Mocha` `MongoDB` `Node` `Python` `Raspberry Pi` `React` `React Native` `Webpack`
 
 ### Fast Learner :running:
 
@@ -24,36 +24,59 @@ Some of the technologies I have worked with, plese note this list is not exhaust
 
 ## Projects
 
+  ### [The Pirage Gui](ian-antking.github.io/the-pirate-gui)
+
+    [The Pirate Game](https://www.tes.com/teaching-resource/the-pirate-game-end-of-term-activity-6258063) is a popular end of term activity for a lot of teachers and their classes. Originally published on [TES](tes.com), it is a game of luck and strategy. On top of this are some practical Maths skills such and handing grid references and keeping track of your pirate gold.
+
+    The Pirate Gui is a graphical tool for choosing and displaying random grid references as well as recording the turn order, just in case any disagreements happen. The page is built in vanilla javascript, with an object oriented approach to handling the map and grid references.
+
+    This App was built in pure JavaScript, with an object oriented approach to managing the game board.
+
+  ### [CMail](ian-antking.github.io/cmail-js)
+
+    A simulated email client for teaching Functional Skills English. Built in react as a single page application. Learners can reply to one of the messages in the inbox, or start from scratch with a new email. Clicking the send button formats the text for printing or saving as a pdf. Clicking back from an email in progress stores it for later.
+
+    This application was built in React, with Material UI components.
+
+  ### [GeoGraffiti](https://github.com/JonnyEdge/geograffiti)
+
+    My final project (with [Johhy Edge](https://github.com/JonnyEdge)) for the Mancheter Codes course. Inteded as an Instagram-type application, users can upload pictures of graffiti which are then desplayed on a map at the location the picture was taken (using the location data embedded in the image). Users can also explore the map to find other pictures of graffiti and street art. 
+
+    This app was built in Expo, with React Native. The [companion api](https://github.com/ian-antking/geo-graffiti-api) was build in express and deployed to Heroku. Images were stored on AWS S3.
+
 ## Education
 
-### Mancester Codes (Aug 2018 - Feb 2019)
+  ### Mancester Codes (Aug 2018 - Feb 2019)
 
-  - 24 Week Intensive Part-Time
-  - Javascript Fundamentals
-  - Front-End Development
-  - Back-End Development
-  - Final Project
+    - 24 Week Intensive Part-Time
+    - Javascript Fundamentals
+    - Front-End Development
+    - Back-End Development
+    - Final Project
 
-### Manchester Metropolitan University (2014 - 2016)
+  ### Manchester Metropolitan University (2014 - 2016)
 
-  - PGCE Secondary Science
-  - Pass
+    - PGCE Secondary Science
+    - Pass
 
-### University of Sheffield (2008 - 2010)
+  ### University of Sheffield (2008 - 2010)
 
-  - MSc Human Osteology and Funerary Archaeology
-  - Pass with Merit
+    - MSc Human Osteology and Funerary Archaeology
+    - Pass with Merit
 
-### University of Lincoln (2005 - 2008)
-  
-  - BSc Forensic Science
-  - Upper Second Class Honours
+  ### University of Lincoln (2005 - 2008)
+    
+    - BSc Forensic Science
+    - Upper Second Class Honours
 
 ## Experience
 
-## Interests
+  ### Coding Mentor - Mancheser Codes (April 2019 - Present) 
+    I am currently workign part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
 
-  - Sewing
-  - Painting
-  - Gardening
-  - Cooking
+  ## Interests
+
+    - Sewing
+    - Painting
+    - Gardening
+    - Cooking
