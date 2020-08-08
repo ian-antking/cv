@@ -1,18 +1,20 @@
 # Ian Anthony King
-  [Website](www.ian-antking.github.io) | [LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Twitter](https://twitter.com/antkingian)
+  [Website](www.ian-antking.github.io) | [LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Twitter](https://twitter.com/antkingian) | [email](ian.antking@gmail.com)
 
-  Software Developer with a background in Science Education. Graduate of and Coding Mentor @ [Manchester Codes](https://www.manchestercodes.com/).
+  Junior Software Engineer @ BBC. Tutor @ [Manchester Codes](https://www.manchestercodes.com/).
 
 ## Skills
 
   Some of the technologies I have worked with, please note this list is not exhaustive:
-  `Arduino` `AWS` `Babel` `Bootstrap` `Clojure` `Expo` `Express` `Git` `Java` `Knex.js` `JavaScript` `Jest` `Mocha` `MongoDB` `MySQL` `Node` `Python` `Raspberry Pi` `React` `React Native` `React Testing Library` `Sequelize` `Styled Components` `Webpack`
+  `Arduino` `AWS` `Babel` `Bootstrap` `Clojure` `Docker` `Expo` `Express` `Git` `Java` `Kafka` `Knex.js` `Kubernetes` `JavaScript` `Jest` `Mocha` `MongoDB` `MySQL` `Node` `Python` `Raspberry Pi` `React` `React Native` `React Testing Library` `Sequelize` `Styled Components` `Webpack`
 
 ### Fast Learner :running:
 
   I learned to code with the Manchester Codes intensive 24 week course. This was studied part-time in addition to working full time as a teacher in a secondary school. While studying, I was introduced to several new technologies, such as React, Express, React Native and Expo. 
 
   Prior to Manchester Codes, I was able to self learn Python and JavaScript. This was at a level sufficient to teach basic coding in school.
+
+  In my current role at the BBC, I have had to get up to speed with maintaining existing products currently deployed on AWS, and work with Kubernetes and Kafka.
 
 ### Problem Solving :mag_right:
 
