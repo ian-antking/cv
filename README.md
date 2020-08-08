@@ -6,7 +6,7 @@
 ## Skills
 
   Some of the technologies I have worked with, please note this list is not exhaustive:
-  `Arduino` `AWS` `Babel` `Bootstrap` `Expo` `Express` `Git` `JavaScript` `Jest` `Mocha` `MongoDB` `Node` `Python` `Raspberry Pi` `React` `React Native` `Webpack`
+  `Arduino` `AWS` `Babel` `Bootstrap` `Clojure` `Expo` `Express` `Git` `Java` `Knex.js` `JavaScript` `Jest` `Mocha` `MongoDB` `MySQL` `Node` `Python` `Raspberry Pi` `React` `React Native` `React Testing Library` `Sequelize` `Styled Components` `Webpack`
 
 ### Fast Learner :running:
 
@@ -20,7 +20,7 @@
 
 ### Teaching :man_teacher:
 
-  I am passionate about teaching and am a coding mentor at Manchester Codes. I have also help other people to learn to code at events such as [Full Stack of Pancakes](https://www.fullstackofpancakes.com/).
+  I am passionate about teaching and am a coding tutor at Manchester Codes. I have also helped other people to learn to code at events such as [Full Stack of Pancakes](https://www.fullstackofpancakes.com/) and [Code Bar](https://codebar.io/).
 
 ## Projects
 
@@ -83,7 +83,7 @@
   ### Junior Software Engineer - BBC Platform (August 2019 - Present)
   I am part of the Universal Content team at BBC Platform. In this role I am developing solutions for handling the metadata for BBC content.
 
-  ### Coding Mentor - Manchester Codes (April 2019 - Present) 
+  ### Coding Tutor - Manchester Codes (April 2019 - Present) 
   I am currently working part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
 
   ## Interests
