@@ -26,6 +26,15 @@
 
 ## Projects
 
+  ### [LGBTQ.js](https://ian-antking.github.io/lgbtq.js)
+  A simple library for building linear gradient strings for a range of LGBTQ pride flags. Gradients can be customized with opacity and background images. The demo website is built in react with styled-components and tested with react-testing-library, content for the page is loaded from from markdown files with react-markdown. The package is published on NPM, and currently has around 600 weekly downloads.
+
+  ### [Stalk Exchange](https://stalk-exchange.herokuapp.com)
+  A full stack web app for Animal Crossing players to publish prices form their in-game economy, and make predictions on how prices in their island will change. Hosted on heroku, the back-end is built in express with a mongodb database, and the front-end is built in react with rebass component library. Frontend tests are written in jest, and react-testing-library for the frontend app.
+
+  ### [Queer Family Tea](https://queerfamilytea.com)
+  A reactive web page for a lgbtq+ social group. Current Version is built with react-components-bulma, and serves content from Contentful. Images in the gallery are served from the groups instagram profile, and the contact from sends enquiries to the a channel in the groups slack workspace. For version 2 we are planning to replace Bulma with styled-components, and add front-end tests in react-testing-library. 
+
   ### [The Pirate Gui](ian-antking.github.io/the-pirate-gui)
 
   [The Pirate Game](https://www.tes.com/teaching-resource/the-pirate-game-end-of-term-activity-6258063) 
