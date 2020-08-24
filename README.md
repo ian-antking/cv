@@ -29,6 +29,8 @@
   ### [LGBTQ.js](https://ian-antking.github.io/lgbtq.js)
   A simple library for building linear gradient strings for a range of LGBTQ pride flags. Gradients can be customized with opacity and background images. The demo website is built in react with styled-components and tested with react-testing-library, content for the page is loaded from from markdown files with react-markdown. The package is published on NPM, and currently has around 600 weekly downloads.
 
+  <div style="page-break-after: always;"></div>
+
   ### [Stalk Exchange](https://stalk-exchange.herokuapp.com)
   A full stack web app for Animal Crossing players to publish prices form their in-game economy, and make predictions on how prices in their island will change. Hosted on heroku, the back-end is built in express with a mongodb database, and the front-end is built in react with rebass component library. Frontend tests are written in jest, and react-testing-library for the frontend app.
 
@@ -64,6 +66,8 @@
   This app was built in Expo, with React Native. The [companion api](https://github.com/ian-antking/geo-graffiti-api)
     was build in express and deployed to Heroku. Images were stored on AWS S3.
 
+<div style="page-break-after: always;"></div>
+
 ## Education
 
   ### Manchester Codes (Aug 2018 - Feb 2019)
@@ -96,10 +100,3 @@
 
   ### Coding Tutor - Manchester Codes (April 2019 - Present) 
   I am currently working part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
-
-  ## Interests
-
-    - Sewing
-    - Painting
-    - Gardening
-    - Cooking
