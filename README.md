@@ -100,7 +100,7 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
 ## Experience
 
   ### Junior Software Engineer - BBC Platform (August 2019 - Present)
-  I am part of the Universal Content team at BBC Platform. In this role I am developing solutions for handling the metadata for BBC content.
+  I am part of the Universal Content team at BBC Platform. In this role I am developing solutions for handling the metadata for BBC content. To do this, I use a wide range of AWS services, Kubernetes, Java & Kafka.
 
   ### Coding Tutor - Manchester Codes (April 2019 - Present) 
   I am currently working part time with Manchester Codes. This involves supporting students with coding and any issues that may arise with the development environment.
