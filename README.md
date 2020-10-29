@@ -5,7 +5,7 @@ I am a software engineer with a background in STEM education. I currently work i
 
 I am passionate about helping to get people into tech. I tutor [Manchester Codes](https://www.manchestercodes.com/), where I teach JavaScript, with React and Express.
 
-In my spare time I make gadgets for my house with raspberry pi, and build/maintain [queerfamilytea](queerfamilytea.com)
+In my spare time I make gadgets for my house with raspberry pi, and build/maintain [Queer Family Tea](queerfamilytea.com).
 
 ## Skills
 
