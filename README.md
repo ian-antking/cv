@@ -54,7 +54,7 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
 
   **GitHub:** https://github.com/ian-antking/cmail-js **Website:** ian-antking.github.io/cmail-js
 
-  ### [GeoGraffiti](https://github.com/JonnyEdge/geograffiti) :email:
+  ### [GeoGraffiti](https://github.com/JonnyEdge/geograffiti) :world_map:
 
   My final project (with [Johnny Edge](https://github.com/JonnyEdge)) for the Manchester Codes course. 
   Intended as an Instagram-type application, users can upload pictures of graffiti which are then displayed on a map at the location 
