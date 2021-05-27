@@ -1,7 +1,7 @@
 # Ian Anthony King
   [linkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [twitter](https://twitter.com/antkingian) | [email](ian.antking@gmail.com)
   
-I am a software engineer with a background in STEM education. I currently work in Design & Engineering at the BBC, where I build microservices with Kubernetes, Kafka and AWS. I have experience developing and maintaining products in JavaScript, TypeScript, Clojure, Java and Python.
+I am a software engineer with a background in STEM education. I currently work in Design & Engineering at the BBC, where I build microservices with Kubernetes, Kafka and AWS. I have experience developing and maintaining products in JavaScript Clojure, Java and Python.
 
 I am passionate about helping to get people into tech. I tutor [Manchester Codes](https://www.manchestercodes.com/), where I teach JavaScript, with React and Express.
 
