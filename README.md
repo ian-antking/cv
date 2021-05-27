@@ -48,7 +48,7 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
   This App was built in vanilla JavaScript, with an object oriented approach to managing the game board.
 
   **GitHub:** https://github.com/ian-antking/the-pirate-gui **Website:** ian-antking.github.io/the-pirate-gui
-  ### [CMail](ian-antking.github.io/cmail-js)
+  ### [CMail](ian-antking.github.io/cmail-js) :email:
 
   A simulated email client for teaching Functional Skills English. Built in react as a single page application. Learners can reply to one of the messages in the inbox, or start from scratch with a new email. Clicking the send button formats the text for printing or saving as a pdf. Clicking back from an email in progress stores it for later.
 
