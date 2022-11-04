@@ -18,9 +18,13 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
 ## :book: Skills
 
   Some of the technologies I have worked with, please note this list is not exhaustive:
-  `AWS` `Clojure` `Docker` `Express` `Git` `Java` `Kafka` `Knex.js` `Kubernetes` `JavaScript` `Jest` `Mocha` `MongoDB` `MySQL` `Node` `Python` `Raspberry Pi` `React` `React Native` `React Testing Library` `Sequelize` `Styled Components` `Webpack`
+  `AWS` `Ajure` `Clojure` `C#` `Docker` `Express` `GoLang` `Git` `Java` `Kafka` `Knex.js` `Kubernetes` `JavaScript` `Jest` `Mocha` `MongoDB` `MySQL` `Node` `Python` `Postgres` `Raspberry Pi` `React`    `Styled Components` `Webpack`
 
 ## :building_construction: Projects
+
+### :fireworks: [King Family Photos](https://github.com/ian-antking/king-family-photos)
+
+  The cloud infrastructure which supports a digital photo frame I built for my mother. My personal media server syncs family photos with an `S3 bucket`, which then triggers a `lambda` to copy the image and resize it for display before putting it into another s3 bucket. The photo frame then grabs new photos from this bucket at midnight and displayes them. The lambdas were built in `GoLang`, with unit and integration tests. Cloud resources are managed as `Infrastructure as Code` with the `serverless framework`, and automated testing and deployment is performed by `GitHub Actions`.
 
 ### :rainbow_flag: [LGBTQ.js](https://ian-antking.github.io/lgbtq.js)
 
@@ -28,17 +32,11 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
 
   **GitHub:** <https://github.com/ian-antking/lgbtq.js/tree/master/module> **Website:** <https://ian-antking.github.io/lgbtq.js>
 
-###  :leafy_green: [Stalk Exchange](https://stalk-exchange.herokuapp.com)
+### :leafy_green: [Stalk Exchange](https://stalk-exchange.herokuapp.com)
 
-  A full stack web app for Animal Crossing players to publish prices form their in-game economy, and make predictions on how prices in their island will change. Hosted on heroku, the back-end is built in express with a mongodb database, and the front-end is built in react with rebass component library. Frontend tests are written in jest, and react-testing-library for the frontend app.
+  A full stack web app for Animal Crossing players to publish prices form their in-game economy, and make predictions on how prices in their island will change. Hosted on heroku, the back-end is built in express with a mongodb database, and the front-end is built in react with the rebass component library. Frontend tests are written in jest, and react-testing-library.
 
   **GitHub:** <https://github.com/ian-antking/stalk-exchange> **Website:** <https://stalk-exchange.herokuapp.com>
-
-### :tea: [Queer Family Tea](https://queerfamilytea.com)
-
-  A reactive web page for a lgbtq+ social group. Current Version is built with react-components-bulma, and serves content from Contentful. Images in the gallery are served from the groups instagram profile, and the contact from sends enquiries to the a channel in the groups slack workspace. For version 2 we are planning to replace Bulma with styled-components, and add front-end tests in react-testing-library.
-
-  **GitHub:** <https://github.com/ian-antking/q-family-dinner> **Website:** <https://queerfamilytea.com>
   
 ### :pirate_flag: [The Pirate Gui](ian-antking.github.io/the-pirate-gui)
 
