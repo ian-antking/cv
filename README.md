@@ -4,7 +4,7 @@
   
 I am a software engineer with a background in STEM education. I currently work as a Senior at Made Tech, where I help deliver digital transformation for the public sector.
 
-I am passionate about helping to get people into tech. I tutor [Manchester Codes](https://www.manchestercodes.com/), where I teach JavaScript, with React and Express.
+I am passionate about helping to get people into tech. I tutor at [Manchester Codes](https://www.manchestercodes.com/), where I teach JavaScript, with React and Express.
 
 In my spare time I make gadgets for my house with raspberry pi, and build/maintain [Queer Family Tea](queerfamilytea.com).
 
@@ -24,7 +24,9 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
 
 ### :fireworks: [King Family Photos](https://github.com/ian-antking/king-family-photos)
 
-  The cloud infrastructure which supports a digital photo frame I built for my mother. My personal media server syncs family photos with an `S3 bucket`, which then triggers a `lambda` to copy the image and resize it for display before putting it into another s3 bucket. The photo frame then grabs new photos from this bucket at midnight and displayes them. The lambdas were built in `GoLang`, with unit and integration tests. Cloud resources are managed as `Infrastructure as Code` with the `serverless framework`, and automated testing and deployment is performed by `GitHub Actions`.
+  The cloud infrastructure which supports a digital photo frame I built for my mother. My personal media server syncs family photos with an `S3 bucket`, which then triggers a `lambda` to copy the image and resize it for display before putting it into another s3 bucket. The photo frame then grabs new photos from this bucket at midnight and displays them. The lambdas were built in `GoLang`, with unit and integration tests. Cloud resources are managed as `Infrastructure as Code` with the `serverless framework`, and automated testing and deployment is performed by `GitHub Actions`.
+
+  **GitHub:** <https://github.com/ian-antking/king-family-photos>
 
 ### :rainbow_flag: [LGBTQ.js](https://ian-antking.github.io/lgbtq.js)
 
@@ -52,24 +54,6 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
   This App was built in vanilla JavaScript, with an object oriented approach to managing the game board.
 
   **GitHub:** <https://github.com/ian-antking/the-pirate-gui> **Website:** ian-antking.github.io/the-pirate-gui
-
-### :email: [CMail](ian-antking.github.io/cmail-js)
-
-  A simulated email client for teaching Functional Skills English. Built in react as a single page application. Learners can reply to one of the messages in the inbox, or start from scratch with a new email. Clicking the send button formats the text for printing or saving as a pdf. Clicking back from an email in progress stores it for later.
-
-  **GitHub:** <https://github.com/ian-antking/cmail-js> **Website:** ian-antking.github.io/cmail-js
-
-### :world_map: [GeoGraffiti](https://github.com/JonnyEdge/geograffiti)
-
-  My final project (with [Johnny Edge](https://github.com/JonnyEdge)) for the Manchester Codes course.
-  Intended as an Instagram-type application, users can upload pictures of graffiti which are then displayed on a map at the location
-  the picture was taken (using the location data embedded in the image). Users can also explore the map to find other pictures of
-  graffiti and street art.
-
-  This app was built in Expo, with React Native. The [companion api](https://github.com/ian-antking/geo-graffiti-api)
-    was build in express and deployed to Heroku. Images were stored on AWS S3.
-
-  **GitHub:** <https://github.com/JonnyEdge/geograffiti>
 
 ## Education
 
