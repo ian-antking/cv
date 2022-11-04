@@ -53,7 +53,7 @@ In my spare time I make gadgets for my house with raspberry pi, and build/mainta
 
   This App was built in vanilla JavaScript, with an object oriented approach to managing the game board.
 
-  **GitHub:** <https://github.com/ian-antking/the-pirate-gui> **Website:** <ian-antking.github.io/the-pirate-gui>
+  **GitHub:** <https://github.com/ian-antking/the-pirate-gui> **Website:** <https://ian-antking.github.io/the-pirate-gui>
 
 ## Education
 
