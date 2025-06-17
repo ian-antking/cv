@@ -1,0 +1,34 @@
+name: Export CV PDF
+
+on:
+  push:
+    paths:
+      - 'README.md'
+  workflow_dispatch:
+
+jobs:
+  export-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+
+      - name: Convert README.md to PDF
+        run: |
+          mkdir -p output
+          md-to-pdf README.md --stylesheet https://unpkg.com/github-markdown-css/github-markdown.css --pdf.output=output/Ian-King-CV.pdf
+
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ian-King-CV
+          path: output/Ian-King-CV.pdf
