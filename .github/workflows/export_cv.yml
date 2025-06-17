@@ -5,6 +5,7 @@ on:
     paths:
       - README.md
       - pdf-style.css
+  workflow_dispatch:
 
 jobs:
   build-pdf:
