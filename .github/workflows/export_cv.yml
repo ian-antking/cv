@@ -5,7 +5,6 @@ on:
     paths:
       - README.md
       - cv.css
-      - .puppeteerrc.js
   workflow_dispatch:
 
 jobs:
@@ -24,10 +23,12 @@ jobs:
     - name: Install Dependencies
       run: npm install -g md-to-pdf puppeteer
 
-    - name: Download Chrome Browser for Puppeteer
+    - name: Download Chrome Browser
       run: npx puppeteer browsers install chrome
 
     - name: Generate PDF from README.md
+      env:
+        PUPPETEER_LAUNCH_ARGS: "--no-sandbox --disable-setuid-sandbox"
       run: md-to-pdf README.md --stylesheet cv.css
 
     - name: Upload PDF artifact
