@@ -29,6 +29,14 @@ I'm technology agnostic, with a preference for **strongly typed languages** and 
 - Built and maintained services for public sector clients using cloud-first principles.
 - Improved delivery pipelines and contributed to shared platform components.
 
+**Module Lead & Tutor** – *Manchester Codes / Command Shift*  
+*Apr 2019 – Nov 2021*
+
+- Developed and maintained course materials for full-stack web development bootcamps.
+- Led live teaching sessions and supported student learning and progression.
+- Collaborated with other tutors to continuously improve curriculum and delivery.
+- Mentored early-career developers and helped foster inclusive learning environments.
+
 **Junior Software Engineer** – *BBC*  
 *Aug 2019 – Jul 2021*
 

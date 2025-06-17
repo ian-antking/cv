@@ -1,34 +1,32 @@
-name: Export CV PDF
+name: Generate PDF CV
 
 on:
   push:
     paths:
-      - 'README.md'
-  workflow_dispatch:
+      - README.md
+      - pdf-style.css
 
 jobs:
-  export-pdf:
+  build-pdf:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
 
-      - name: Install md-to-pdf
-        run: npm install -g md-to-pdf
+    - name: Install md-to-pdf
+      run: npm install -g md-to-pdf
 
-      - name: Convert README.md to PDF
-        run: |
-          mkdir -p output
-          md-to-pdf README.md --stylesheet https://unpkg.com/github-markdown-css/github-markdown.css --pdf.output=output/Ian-King-CV.pdf
+    - name: Generate PDF from README.md
+      run: md-to-pdf README.md --stylesheet pdf-style.css
 
-      - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Ian-King-CV
-          path: output/Ian-King-CV.pdf
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Ian-King-CV
+        path: README.pdf
