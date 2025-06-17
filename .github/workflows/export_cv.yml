@@ -1,30 +1,35 @@
-name: Generate PDF CV
+name: Release PDF CV
 
 on:
   push:
-    paths:
-      - 'README.md'
+    tags:
+      - 'v*' # Matches tags like v1, v2.0, v1.2.3
   workflow_dispatch:
 
 jobs:
-  build-pdf:
-    name: Build PDF
+  build-and-release:
+    name: Build and Release PDF
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Convert Markdown to PDF
-        uses: BaileyJM02/markdown-to-pdf@v1
+        uses: BaileyJM02/markdown-to-pdf@v1.9.0
         with:
           input_path: README.md
           output_dir: pdf-output
 
       - name: Rename PDF
-        run: mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
-
-      - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v4
+        run: sudo mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
+        
+      - name: Create Release and Upload PDF
+        uses: softprops/action-gh-release@v2
         with:
-          name: Ian-King-CV
-          path: pdf-output/Ian-King-CV.pdf
+          tag_name: ${{ github.ref_name }}
+          name: CV Release ${{ github.ref_name }}
+          files: pdf-output/Ian-King-CV.pdf
