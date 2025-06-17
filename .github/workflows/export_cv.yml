@@ -18,18 +18,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install emoji font
-        run: sudo apt-get update && sudo apt-get install -y fonts-noto-color-emoji
-
       - name: Convert Markdown to PDF
         uses: BaileyJM02/markdown-to-pdf@v1
         with:
           input_path: README.md
           output_dir: pdf-output
-          theme: cv.css
+          theme: style/main.css  # <-- your CSS here
 
       - name: Rename PDF
-        run: sudo mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
+        run: mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
         
       - name: Create Release and Upload PDF
         uses: softprops/action-gh-release@v2
