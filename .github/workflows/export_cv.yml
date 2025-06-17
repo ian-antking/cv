@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Convert Markdown to PDF
-        uses: BaileyJM02/markdown-to-pdf@v1.9.0
+        uses: BaileyJM02/markdown-to-pdf@v1
         with:
           input_path: README.md
           output_dir: pdf-output
