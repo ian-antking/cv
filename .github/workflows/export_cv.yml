@@ -3,36 +3,28 @@ name: Generate PDF CV
 on:
   push:
     paths:
-      - README.md
-      - cv.css
+      - 'README.md'
+      - 'cv.css'
   workflow_dispatch:
 
 jobs:
   build-pdf:
+    name: Build PDF
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+      - name: Convert Markdown to PDF
+        uses: BaileyJM02/markdown-to-pdf@v1
+        with:
+          input_path: README.md
+          output_dir: pdf-output
+          theme: cv.css
+          extend_default_theme: false
 
-    - name: Install Dependencies
-      run: npm install -g md-to-pdf puppeteer
-
-    - name: Download Chrome Browser
-      run: npx puppeteer browsers install chrome
-
-    - name: Generate PDF from README.md
-      env:
-        PUPPETEER_LAUNCH_ARGS: "--no-sandbox --disable-setuid-sandbox"
-      run: md-to-pdf README.md --stylesheet cv.css
-
-    - name: Upload PDF artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: Ian-King-CV
-        path: README.pdf
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ian-King-CV
+          path: pdf-output/README.pdf
