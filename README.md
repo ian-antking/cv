@@ -1,63 +1,56 @@
 # Ian Anthony King
 
-  [linkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [twitter](https://twitter.com/antkingian) | [email](ian.antking@gmail.com)
-  
-I am a software engineer with a background in STEM education. I currently work as a Senior at Made Tech, where I help deliver digital transformation for the public sector.
+[LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Email](mailto:ian.antking@gmail.com)
 
-I am passionate about helping to get people into tech. I tutor at [Manchester Codes](https://www.manchestercodes.com/), where I teach JavaScript, with React and Express.
+---
 
-In my spare time I make gadgets for my house with raspberry pi, and build/maintain [Queer Family Tea](queerfamilytea.com).
+## 👋 About Me
 
-## :computer: Experience
+I’m a Senior Software Engineer with a strong interest in public sector digital transformation. At **Made Tech**, I lead teams delivering scalable, secure, and accessible services. I focus on maintainable architecture, pragmatic delivery, and continuous improvement.
 
-- Senior Software Engineer - Made Tech (Feb 2022 - Present)
-- Software Engineer - Made Tech (July 2021 - Feb 2022)
-- Junior Software Engineer - BBC (August 2019 - July 2021)
-- Lead Tutor - Manchester Codes (April 2019 - Present)
+I'm technology agnostic, with a preference for **strongly typed languages** and modern cloud-native infrastructure. I enjoy mentoring early-career developers and helping teams adopt better engineering practices through pairing, code review, and shared ownership.
 
-## :book: Skills
+---
 
-  Some of the technologies I have worked with, please note this list is not exhaustive:
-  `AWS` `Ajure` `Clojure` `C#` `Docker` `Express` `GoLang` `Git` `Java` `Kafka` `Knex.js` `Kubernetes` `JavaScript` `Jest` `Mocha` `MongoDB` `MySQL` `Node` `Python` `Postgres` `Raspberry Pi` `React`    `Styled Components` `Webpack`
+## 💼 Experience
 
-## :building_construction: Projects
+**Senior Software Engineer** – *Made Tech*  
+_Feb 2022 – Present_
 
-### :fireworks: [King Family Photos](https://github.com/ian-antking/king-family-photos)
+- Led engineering on government services used by thousands of citizens daily.
+- Delivered APIs and backend systems in **Go**, **TypeScript**, **Kotlin**, and **C#**.
+- Designed and provisioned infrastructure using **Terraform** on **AWS** and **Azure**.
+- Advocated for TDD, continuous delivery, and high-trust team culture.
+- Mentored engineers across multiple teams and levels.
 
-  The cloud infrastructure which supports a digital photo frame I built for my mother. My personal media server syncs family photos with an `S3 bucket`, which then triggers a `lambda` to copy the image and resize it for display before putting it into another s3 bucket. The photo frame then grabs new photos from this bucket at midnight and displays them. The lambdas were built in `GoLang`, with unit and integration tests. Cloud resources are managed as `Infrastructure as Code` with the `serverless framework`, and automated testing and deployment is performed by `GitHub Actions`.
+**Software Engineer** – *Made Tech*  
+_Jul 2021 – Feb 2022_
 
-  **GitHub:** <https://github.com/ian-antking/king-family-photos>
+- Built and maintained services for public sector clients using cloud-first principles.
+- Improved delivery pipelines and contributed to shared platform components.
 
-### :rainbow_flag: [LGBTQ.js](https://ian-antking.github.io/lgbtq.js)
+**Junior Software Engineer** – *BBC*  
+_Aug 2019 – Jul 2021_
 
-  A simple library for building linear gradient strings for a range of LGBTQ pride flags. Gradients can be customized with opacity and background images. The demo website is built in react with styled-components and tested with react-testing-library, content for the page is loaded from from markdown files with react-markdown. The package is published on NPM, and currently has around 600 weekly downloads.
+- Worked on internal tooling and data processing pipelines.
+- Contributed to accessible public-facing features and backend APIs.
+- Advocated for testing, documentation, and pairing within cross-functional teams.
 
-  **GitHub:** <https://github.com/ian-antking/lgbtq.js/tree/master/module> **Website:** <https://ian-antking.github.io/lgbtq.js>
+---
 
-### :leafy_green: [Stalk Exchange](https://stalk-exchange.herokuapp.com)
+## 🧠 Skills & Focus Areas
 
-  A full stack web app for Animal Crossing players to publish prices form their in-game economy, and make predictions on how prices in their island will change. Hosted on heroku, the back-end is built in express with a mongodb database, and the front-end is built in react with the rebass component library. Frontend tests are written in jest, and react-testing-library.
+- **Languages:** Go, TypeScript, Kotlin, C# (and others as needed)  
+- **Cloud:** AWS (primary), Azure  
+- **Infrastructure:** Terraform, IaC, Serverless  
+- **Practices:** TDD, CI/CD, Agile, Mentoring, Pair Programming  
+- **Domains:** Public Sector, Platform Engineering, API Design, Digital Services  
 
-  **GitHub:** <https://github.com/ian-antking/stalk-exchange> **Website:** <https://stalk-exchange.herokuapp.com>
-  
-### :pirate_flag: [The Pirate Gui](ian-antking.github.io/the-pirate-gui)
+---
 
-  [The Pirate Game](https://www.tes.com/teaching-resource/the-pirate-game-end-of-term-activity-6258063)
-  is a popular end of term activity for a lot of teachers and their classes. Originally published on [TES](tes.com),
-  it is a game of luck and strategy. On top of this are some practical Maths skills such and handing grid references and keeping
-  track of your pirate booty.
+## 🎓 Education
 
-  The Pirate Gui is a graphical tool for choosing and displaying random grid references as well as recording the turn order,
-  just in case any disagreements happen. The page is built in vanilla javascript, with an object oriented approach to handling
-  the map and grid references.
-
-  This App was built in vanilla JavaScript, with an object oriented approach to managing the game board.
-
-  **GitHub:** <https://github.com/ian-antking/the-pirate-gui> **Website:** <https://ian-antking.github.io/the-pirate-gui>
-
-## Education
-
-- Manchester Codes - 24 Week Bootcamp (Aug 2018 - Feb 2019)
-- Manchester Metropolitan University - PGCE (2014 - 2016)
-- University of Sheffield - MSc Human Osteology (2008 - 2010)
-- University of Lincoln - BSc Forensic Science (2005 - 2008)
+- **Manchester Codes** – Full Stack Bootcamp (2018–2019)  
+- **PGCE** – Manchester Metropolitan University (2014–2016)  
+- **MSc Human Osteology** – University of Sheffield (2008–2010)  
+- **BSc Forensic Science** – University of Lincoln (2005–2008)
