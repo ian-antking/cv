@@ -1,6 +1,6 @@
 # Ian Anthony King
 
-[LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Email](mailto:ian.antking@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/ian-king-6b135056) | [Email](mailto:ian@antking.co)
 
 ---
 
