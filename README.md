@@ -15,7 +15,7 @@ I'm technology agnostic, with a preference for **strongly typed languages** and 
 ## 💼 Experience
 
 **Senior Software Engineer** – *Made Tech*  
-_Feb 2022 – Present_
+*Feb 2022 – Present*
 
 - Led engineering on government services used by thousands of citizens daily.
 - Delivered APIs and backend systems in **Go**, **TypeScript**, **Kotlin**, and **C#**.
@@ -24,13 +24,13 @@ _Feb 2022 – Present_
 - Mentored engineers across multiple teams and levels.
 
 **Software Engineer** – *Made Tech*  
-_Jul 2021 – Feb 2022_
+*Jul 2021 – Feb 2022*
 
 - Built and maintained services for public sector clients using cloud-first principles.
 - Improved delivery pipelines and contributed to shared platform components.
 
 **Junior Software Engineer** – *BBC*  
-_Aug 2019 – Jul 2021_
+*Aug 2019 – Jul 2021*
 
 - Worked on internal tooling and data processing pipelines.
 - Contributed to accessible public-facing features and backend APIs.
