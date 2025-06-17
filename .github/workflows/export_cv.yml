@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - README.md
-      - pdf-style.css
+      - cv.css
       - .puppeteerrc.js
   workflow_dispatch:
 
@@ -21,8 +21,11 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Install md-to-pdf
-      run: npm install -g md-to-pdf
+    - name: Install Dependencies
+      run: npm install -g md-to-pdf puppeteer
+
+    - name: Download Chrome Browser for Puppeteer
+      run: npx puppeteer browsers install chrome
 
     - name: Generate PDF from README.md
       run: md-to-pdf README.md --stylesheet cv.css
