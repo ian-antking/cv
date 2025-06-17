@@ -23,6 +23,7 @@ jobs:
         with:
           input_path: README.md
           output_dir: pdf-output
+          theme: cv.css
 
       - name: Rename PDF
         run: sudo mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
