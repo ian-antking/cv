@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'README.md'
-      - 'cv.css'
   workflow_dispatch:
 
 jobs:
@@ -20,11 +19,12 @@ jobs:
         with:
           input_path: README.md
           output_dir: pdf-output
-          theme: cv.css
-          extend_default_theme: false
+
+      - name: Rename PDF
+        run: mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
 
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Ian-King-CV
-          path: pdf-output/README.pdf
+          path: pdf-output/Ian-King-CV.pdf
