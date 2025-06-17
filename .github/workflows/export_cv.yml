@@ -23,10 +23,10 @@ jobs:
         with:
           input_path: README.md
           output_dir: pdf-output
-          theme: style/main.css  # <-- your CSS here
+          theme: style/main.css
 
       - name: Rename PDF
-        run: mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
+        run: sudo mv pdf-output/README.pdf pdf-output/Ian-King-CV.pdf
         
       - name: Create Release and Upload PDF
         uses: softprops/action-gh-release@v2
